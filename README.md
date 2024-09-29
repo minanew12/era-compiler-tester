@@ -14,10 +14,6 @@ this makes it a whitebox testing framework.
 
 The `era-compiler-tester` repository includes the Compiler Tests Collection repository as a submodule.
 
-By default, the Tester SHOULD run the entire Collection in all possible combinations of compiler versions and settings,
-but it MAY omit some subset of the combinations for the sake of saving time, e.g. when only front-end changes have been
-made, and there is no point in running tests in all LLVM optimization modes.
-
 ## Building
 
 <details>
